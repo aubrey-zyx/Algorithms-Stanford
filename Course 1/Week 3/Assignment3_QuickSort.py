@@ -23,7 +23,7 @@ def partition(a, left, right, mode):
             i += 1
     a[i-1], a[left] = a[left], a[i-1]
     count += right - left
-    return i - 1
+    return i-1
 
 def find_median(a, first, last):
     middle = first + (last - first) // 2
