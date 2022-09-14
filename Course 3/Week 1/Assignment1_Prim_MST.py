@@ -40,6 +40,7 @@ def prim_mst(graph):
 
 
 def main():
+    G = read_file("edges_test.txt")
     assert prim_mst(G) == 7
     G = read_file("edges.txt")
     print(prim_mst(G))
